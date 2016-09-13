@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+.whole {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+    background-color: #c3c1c1;
+    flex-grow: 1;
+    width: 100%;
+}
+.header-box {
+  width: 81px;
+  height: 81px;
+  background-color: lightskyblue;
+  position: absolute;
+  float: left;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.box1 {
+  flex-grow: 2;
+  width: 100%;
+  background-color: white;
+  /*float: right;*/
+}
+.text-box {
+    font-family: sans-serif;
+    color: red;
+    
+}
+.box2 {
+  flex-grow: 1;
+  width: 100%;
+  background-color: #3ba0e8;
+  /*float: right;*/
+}
+.box3 {
+  flex-grow: 1;
+  width: 100%;
+  background-color: #31ccbd;
+  /*float: right;*/
+}
+.box4 {
+  flex-grow: 1;
+  width: 100%;
+  background-color: #a1d862;
+  /*float: right;*/
+}
+.box5 {
+  flex-grow: 1;
+  width: 100%;
+  background-color: #f1de3d;
+  /*float: right;*/
+}

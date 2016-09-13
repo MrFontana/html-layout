@@ -1,0 +1,28 @@
+.left {
+  background-color: #000000;
+  width: 33.33%;
+  height: 100vh;
+  float:left;
+}
+.center {
+  background-color: #423535;
+  width: 33.33%;
+  height: 100vh;
+  float: left;
+}
+.right {
+  background-color: #634949;
+  width: 33.33%;
+  height: 100vh;
+  position: relative;
+  float: left;
+}
+.bottom-right {
+  height: 20vh;
+  width: 100%;
+  background-color: #8E1515;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 20vh;
+}
